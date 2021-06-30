@@ -4,16 +4,18 @@ import random
 
 
 class Beast:
-    def __init__(self, beastName, baseHp, attack, defense, speed, luck, trait, className, tier):
+    def __init__(self, beastName, baseHp, attack, defense, speed, luck, activeTrait, passiveTrait, className, tier):
         self.nickname = beastName
         self.beastName = beastName
         self.currentHp = baseHp
+        self.currentStatus = None;
         self.baseHp = baseHp
         self.attack = attack
         self.defense = defense
         self.speed = speed
         self.luck = luck
-        self.trait = trait
+        self.activeTrait = activeTrait
+        self.passiveTrait = passiveTrait
         self.className = className
         self.tier = tier
 

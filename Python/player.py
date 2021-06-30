@@ -7,6 +7,8 @@ from items import ItemPouch
 #Class for each player
 class Player:
     def __init__(self):
+        #Player ID
+        self.id = ""
         #Name of the player
         self.name = ""
         #Amount of gold the player has

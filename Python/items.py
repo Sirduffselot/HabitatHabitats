@@ -5,6 +5,7 @@ import random
 
 class ItemPouch:
     def __init__(self):
+        self.id = ""
         #itemsPouch is the list of items a player has
         self.itemsPouch = []
 

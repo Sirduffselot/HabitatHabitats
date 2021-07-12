@@ -1,6 +1,7 @@
 import csv
 import random
 
+from battle import Battle
 
 
 class Space:
@@ -31,7 +32,15 @@ class Board:
         S0.setEvent("Start")
         S1 = Space()
 
+    #Initiates battle mode between two parties
+    def battleMode(self):
+        battle = Battle;
+        battle.standardBattle(self, Party1, Party2)
+        return
+
     def updatePlayerSpace(self):
+        return
+
     def decipherEventSpace(self, player):
         currentEvent = player.currentSpace.get_event()
 

@@ -5,17 +5,29 @@ from beast import Beast
 
 class Party:
     def __init__(self):
+        #Party id, name of the owning player
+        self.id = ""
         #List of Beasts in a party
-        self.members = []
+        self.members = [None, None, None]
         #Effects that affect gameplay during battle
+        #Note: May not be necessary if traits only effect the beast that holds them alone, not the entire party
         self.partyEffects = []
 
-    def get_leader(self):
+    def getLeader(self):
         return self.members[0]
 
-    def set_leader(self):
+    def setLeader(self, beast):
         #Only during menu from board
         #Use swap
+        if (self.)
+        self.members
+        return
+
+    def getId(self):
+        return self.id
+
+    def setId(self, id):
+        self.id = id;
         return
 
     #Lists names of each Beast in party

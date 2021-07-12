@@ -19,44 +19,50 @@ class Beast:
         self.className = className
         self.tier = tier
 
-    def get_name(self):
+    def getName(self):
         print(self.nickname)
 
-    def get_beastName(self):
+    def getBeastName(self):
         print(self.beastName)
 
-    def get_currentHp(self):
+    def getCurrentHp(self):
         print(self.currentHp)
 
-    def get_baseHp(self):
+    def getCurrentStatus(self):
+        print(self.currentStatus)
+
+    def getBaseHp(self):
         print(self.baseHp)
 
-    def get_attack(self):
+    def getAttack(self):
         print(self.attack)
 
-    def get_defense(self):
+    def getDefense(self):
         print(self.defense)
 
-    def get_speed(self):
+    def getSpeed(self):
         print(self.speed)
 
-    def get_luck(self):
+    def getLuck(self):
         print(self.luck)
 
-    def get_trait(self):
+    def getTrait(self):
         print(self.trait)
 
-    def get_className(self):
+    def getClassName(self):
         print(self.className)
 
-    def get_tier(self):
+    def getTier(self):
         print(self.tier)
 
-    def set_nickname(self, nickname):
+    def setNickname(self, nickname):
         self.nickname = nickname
 
-    def set_currentHp(self, currentHp):
+    def setCurrentHp(self, currentHp):
         self.currentHp = currentHp
+
+    def setCurrentStatus(self, currentStatus):
+        self.currentStatus = currentStatus
 
 
 

@@ -1,20 +1,21 @@
 import csv
 import random
 from items import ItemPouch
-
+from party import Party
 
 
 #Class for each player
+
+
+
 class Player:
     def __init__(self):
-        #Player ID
-        self.id = ""
-        #Name of the player
+        #Name of the player, acts as an ID
         self.name = ""
         #Amount of gold the player has
         self.gold = 0
         #Party of 3 or less Beasts
-        self.party = []
+        self.party = Party()
         #Item Pouch of items
         self.itemPouch = ItemPouch()
         #List of Active Effects availabe from Beasts in party
